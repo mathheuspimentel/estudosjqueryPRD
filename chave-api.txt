@@ -1,0 +1,10 @@
+chave google gemini
+AIzaSyCFrGAuzL8kL2KoQM_Oz6BPmlQo2gs2joQ
+
+-------------------------------------------
+dados Mongodb
+user: mathheuspimentel
+password: S4xOn8vQ24IzSukW
+
+STRING DE CONEXÃO MONGO
+mongodb+srv://mathheuspimentel:S4xOn8vQ24IzSukW@serverapibackend.ftygy.mongodb.net/?retryWrites=true&w=majority&appName=ServerAPIBackEnd
