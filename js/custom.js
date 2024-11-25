@@ -49,7 +49,19 @@ $(document).ready(function(){
 
      })
      
-     
+     /*Callback
+     * entendendo ações que começam ao termino de outra
+     */
+     $('.featured-item:nth(1)')
+     .hide(2000, function() //irá ocultar o item após 2 segundos
+     {
+      //este é o callback
+      console.log($(this).find('h4').text() + ' esgotado')
+     })
+     .show (2000, function(){
+      //este é o callback
+      console.log($(this).find('h4').text() + ' em estoque')
+     }) //vai mostrar o item após 2 segundos
      
      
 
